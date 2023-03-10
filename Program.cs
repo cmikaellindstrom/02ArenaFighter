@@ -9,6 +9,9 @@ namespace ArenaFighter
     {
         // Name of this program/game
         const string ProgramName = "The Arena Fighter 2000";
+
+        // Instans that handle creating of randomly values
+        internal static Random random = new Random();
         
         /// <summary>
         /// The start point of this program/game
